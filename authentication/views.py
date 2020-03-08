@@ -44,7 +44,7 @@ from .serializers import (
 
 @api_view()
 @permission_classes((IsAuthenticated,))
-def hello_authors_heaven(request):
+def hello(request):
     return Response({"message": "Hello, world!"})
 
 
@@ -182,7 +182,7 @@ def send_account_activation_email(request, user):
     user_obj = User.objects.get(pk=uid)
 
     kwargs = {
-        "uidb64": urlsafe_base64_encode(force_bytes(uid)).decode(),
+        "uidb64": urlsafe_base64_encode(force_bytes(uid)),
         "token": default_token_generator.make_token(user_obj),
     }
 
