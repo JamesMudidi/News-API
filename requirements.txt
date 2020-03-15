@@ -4,7 +4,9 @@ certifi==2019.11.28
 chardet==3.0.4
 coreapi==2.3.3
 coreschema==0.0.4
+dj-database-url==0.5.0
 Django==3.0.4
+django-heroku==0.3.1
 django-rest-passwordreset==1.1.0
 djangorestframework==3.11.0
 drf-yasg==1.17.1
@@ -16,11 +18,13 @@ itypes==1.1.0
 Jinja2==2.11.1
 MarkupSafe==1.1.1
 packaging==20.3
+psycopg2==2.8.4
 psycopg2-binary==2.8.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 PyJWT==1.7.1
 pyparsing==2.4.6
+python-decouple==3.3
 pytz==2019.3
 requests==2.23.0
 rsa==4.0
@@ -30,3 +34,4 @@ six==1.14.0
 sqlparse==0.3.1
 uritemplate==3.0.1
 urllib3==1.25.8
+whitenoise==5.0.1
