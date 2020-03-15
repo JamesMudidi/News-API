@@ -77,5 +77,4 @@ class LoginSerializer(serializers.Serializer):
             'user_name': user.user_name,
             'token': user.token
         }
-        print(user_name)
         return user
