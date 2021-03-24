@@ -27,7 +27,7 @@ pyparsing==2.4.6
 python-decouple==3.3
 pytz==2019.3
 requests==2.23.0
-rsa==4.0
+rsa==4.1
 ruamel.yaml==0.16.10
 ruamel.yaml.clib==0.2.0
 six==1.14.0
