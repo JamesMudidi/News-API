@@ -22,7 +22,7 @@ psycopg2==2.8.4
 psycopg2-binary==2.8.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.6
 python-decouple==3.3
 pytz==2019.3
